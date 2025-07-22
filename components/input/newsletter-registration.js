@@ -3,6 +3,7 @@ import classes from "./newsletter-registration.module.css";
 
 function NewsletterRegistration() {
   const emailInputRef = useRef();
+  
   function registrationHandler(event) {
     event.preventDefault();
     const enteredEmail = emailInputRef.current.value;
